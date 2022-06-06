@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgBaihathot"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:text="Ten Bai Hat"
+        android:textSize="18sp"
+        android:textColor="#363636"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_toRightOf="@+id/imgBaihathot"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtTenBaihatHot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#8c8a8a"
+        android:textSize="15sp"
+        android:text="Ca si"
+        android:singleLine="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgBaihathot"
+        android:layout_below="@+id/txtTenBaihatHot"
+        android:id="@+id/txtCasiBaihatHot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img_AddMyplaylist"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/iconsplaylist" />
+
+    <ImageView
+        android:id="@+id/imgBaihathot_love"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/iconlove" />
+
+    <TextView
+        android:id="@+id/countLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/imgBaihathot_love"
+        android:background="@drawable/custom_textview_so_luot_thich"
+        android:inputType="number"
+        android:padding="5dp"
+        android:text="Số"
+        android:textSize="12sp" />
+</RelativeLayout>
