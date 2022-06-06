@@ -6,7 +6,6 @@
 
 Với những chức năng như:
 * Nghe nhạc: Next, Previous, Pause, Repeat, Random
-* Chế độ chạy ngầm (vẫn phát nhạc khi tắt điện thoại
 * Tạo Playlist
 * Tìm kiếm bài hát
 * Like, Top list, Top like
